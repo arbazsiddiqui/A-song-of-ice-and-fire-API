@@ -50,16 +50,42 @@ var asoiaf = function() {
         return httpGet(url);
     }
 
-    exports.getCharacterByCulture = function(culture_name) {
+    exports.getCharactersByCulture = function(culture_name) {
         var url = 'http://www.anapioficeandfire.com/api/characters/?culture=' + culture_name;
         return httpGet(url);
     }
 
-    exports.getCharacterByGender = function(gender) {
+    exports.getCharactersByGender = function(gender) {
         var url = 'http://www.anapioficeandfire.com/api/characters/?gender=' + gender;
         return httpGet(url);
     }
 
-    
+    //Getters for House
+
+    exports.getAllHouses = function() {
+        var url = 'http://www.anapioficeandfire.com/api/houses';
+        return httpGet(url);
+    }
+
+    exports.getHouseByID = function(house_id) {
+        house_id = house_id.toString();
+        var url = 'http://www.anapioficeandfire.com/api/houses/' + house_id;
+        return httpGet(url);
+    }
+
+    exports.getHouseByName = function(house_name) {
+        var url = 'http://www.anapioficeandfire.com/api/houses/?name=' + house_name;
+        return httpGet(url);
+    }
+
+    exports.getHouseByRegion = function(region) {
+        var url = 'http://www.anapioficeandfire.com/api/houses/?region=' + region;
+        return httpGet(url);
+    }
+
+    exports.getHouseByWords = function(words) {
+        var url = 'http://www.anapioficeandfire.com/api/houses/?words=' + words;
+        return httpGet(url);
+    }
 
 }();
