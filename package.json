@@ -1,0 +1,22 @@
+{
+  "name": "asoiaf-api",
+  "version": "1.0.0",
+  "description": "Javascript wrapper for the A song of ice and fire API ",
+  "main": "asoiaf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbazsiddiqui/A-song-of-ice-and-fire-API.git"
+  },
+  "author": "arbaz siddiqui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arbazsiddiqui/A-song-of-ice-and-fire-API/issues"
+  },
+  "homepage": "https://github.com/arbazsiddiqui/A-song-of-ice-and-fire-API#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
