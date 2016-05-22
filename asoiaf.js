@@ -50,4 +50,16 @@ var asoiaf = function() {
         return httpGet(url);
     }
 
+    exports.getCharacterByCulture = function(culture_name) {
+        var url = 'http://www.anapioficeandfire.com/api/characters/?culture=' + culture_name;
+        return httpGet(url);
+    }
+
+    exports.getCharacterByGender = function(gender) {
+        var url = 'http://www.anapioficeandfire.com/api/characters/?gender=' + gender;
+        return httpGet(url);
+    }
+
+    
+
 }();
