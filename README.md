@@ -76,7 +76,6 @@ npm install asoiaf-api
 
 * Returns: An array of objects containing all the characters.
 
-
 ###Houses###
 
 **getHouseByID**
@@ -102,3 +101,19 @@ npm install asoiaf-api
 **getAllHouses**
 
 * Returns: An array of objects containing all the houses.
+
+###Books###
+
+**getBookByID**
+
+* Accepts: A string or number representing a book ID.
+* Returns: An object containing the book's properties if the book exists.
+
+**getBookByName**
+
+* Accepts: A string representing full name of the book.
+* Returns: An array of objects containing all the books with given name.
+
+**getAllBooks**
+
+* Returns: An array of objects containing all the books.
