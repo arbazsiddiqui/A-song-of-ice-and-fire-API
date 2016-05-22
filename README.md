@@ -75,3 +75,30 @@ npm install asoiaf-api
 **getAllCharacters**
 
 * Returns: An array of objects containing all the characters.
+
+
+###Houses###
+
+**getHouseByID**
+
+* Accepts: A string or number representing a house ID.
+* Returns: An object containing the house's properties if the house exists.
+
+**getHouseByName**
+
+* Accepts: A string representing full name of the house.
+* Returns: An array of objects containing all the houses with given name.
+
+**getHouseByRegion**
+
+* Accepts: A string representing the region of the house.
+* Returns: An array of objects containing all the houses with given region.
+
+**getHouseByWords**
+
+* Accepts: A string representing the words/saying of the house.
+* Returns: An array of objects containing all the houses with given words/saying.
+
+**getAllHouses**
+
+* Returns: An array of objects containing all the houses.
