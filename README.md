@@ -117,3 +117,43 @@ npm install asoiaf-api
 **getAllBooks**
 
 * Returns: An array of objects containing all the books.
+
+###FUN###
+
+**getRandomCharacter**
+
+* Returns: An object containing the properties of a random character.
+
+**getRandomHouse**
+
+* Returns: An object containing the properties of a random house.
+
+**getRandomCharacterOfHouse**
+
+* Accepts: A string representing full name of the house.
+* Returns: An object containing the properties of a random character from the given house
+
+```javascript
+> var asoaif = require('asoiaf-api');
+> asoaif.getRandomCharacterOfHouse("House Stark of Winterfell");
+
+{ url: 'http://www.anapioficeandfire.com/api/characters/170',
+  name: 'Barthogan Stark',
+  gender: 'Male',
+  culture: 'Northmen',
+  born: '',
+  died: '',
+  titles: [ 'Lord of Winterfell', 'Warden of the North' ],
+  aliases: [ 'Barth Blacksword' ],
+  father: '',
+  mother: '',
+  spouse: '',
+  allegiances: [ 'http://www.anapioficeandfire.com/api/houses/362' ],
+  books: 
+   [ 'http://www.anapioficeandfire.com/api/books/2',
+     'http://www.anapioficeandfire.com/api/books/11' ],
+  povBooks: [],
+  tvSeries: [],
+  playedBy: [] }
+
+```
