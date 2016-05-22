@@ -20,4 +20,9 @@ var asoiaf = function() {
         return httpGet(url);
     }
 
+    exports.getCharacterByName = function(char_name) {
+        var url = 'http://www.anapioficeandfire.com/api/characters/?name=' + char_name;
+        return httpGet(url);
+    }
+    
 }();
