@@ -47,3 +47,31 @@ npm install asoiaf-api
     tvSeries: [ 'Season 1', 'Season 2', 'Season 3', 'Season 4', 'Season 5' ],
     playedBy: [ 'Kit Harington' ] } ]
 ```
+
+## API ##
+
+###Characters###
+
+**getCharacterByID**
+
+* Accepts: A string or number representing a character ID.
+* Returns: An object containing the character's properties if the character exists.
+
+**getCharacterByName**
+
+* Accepts: A string representing full name of the character.
+* Returns: An array of objects containing all the characters with given name.
+
+**getCharactersByCulture**
+
+* Accepts: A string representing the culture of Character.
+* Returns: An array of objects containing all the characters with given culture.
+
+**getCharactersByGender**
+
+* Accepts: A string representing the gender of Character.
+* Returns: An array of objects containing all the characters with given gender.
+
+**getAllCharacters**
+
+* Returns: An array of objects containing all the characters.
