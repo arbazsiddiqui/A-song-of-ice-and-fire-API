@@ -50,7 +50,7 @@ npm install asoiaf-api
 
 ## API ##
 
-###Characters###
+### Characters ###
 
 **getCharacterByID**
 
@@ -76,7 +76,7 @@ npm install asoiaf-api
 
 * Returns: An array of objects containing all the characters.
 
-###Houses###
+### Houses ###
 
 **getHouseByID**
 
@@ -102,7 +102,7 @@ npm install asoiaf-api
 
 * Returns: An array of objects containing all the houses.
 
-###Books###
+### Books ###
 
 **getBookByID**
 
@@ -118,7 +118,7 @@ npm install asoiaf-api
 
 * Returns: An array of objects containing all the books.
 
-###FUN###
+### FUN ###
 
 **getRandomCharacter**
 
