@@ -18,17 +18,17 @@ var asoiaf = function() {
 
     exports.getBookByID = function(book_id) {
         book_id = book_id.toString();
-        var url = 'http://www.anapioficeandfire.com/api/books/' + book_id;
+        var url = 'https://www.anapioficeandfire.com/api/books/' + book_id;
         return httpGet(url);
     }
 
     exports.getBookByName = function(book_name) {
-        var url = 'http://www.anapioficeandfire.com/api/books/?name=' + book_name;
+        var url = 'https://www.anapioficeandfire.com/api/books/?name=' + book_name;
         return httpGet(url);
     }
 
     exports.getAllBooks = function() {
-        var url = 'http://www.anapioficeandfire.com/api/books';
+        var url = 'https://www.anapioficeandfire.com/api/books';
         return httpGet(url);
     }
 
@@ -36,55 +36,55 @@ var asoiaf = function() {
 
     exports.getCharacterByID = function(char_id) {
         char_id = char_id.toString();
-        var url = 'http://www.anapioficeandfire.com/api/characters/' + char_id;
+        var url = 'https://www.anapioficeandfire.com/api/characters/' + char_id;
         return httpGet(url);
     }
 
     exports.getCharacterByName = function(char_name) {
-        var url = 'http://www.anapioficeandfire.com/api/characters/?name=' + char_name;
+        var url = 'https://www.anapioficeandfire.com/api/characters/?name=' + char_name;
         return httpGet(url);
     }
 
     exports.getAllCharacters = function() {
-        var url = 'http://www.anapioficeandfire.com/api/characters';
+        var url = 'https://www.anapioficeandfire.com/api/characters';
         return httpGet(url);
     }
 
     exports.getCharactersByCulture = function(culture_name) {
-        var url = 'http://www.anapioficeandfire.com/api/characters/?culture=' + culture_name;
+        var url = 'https://www.anapioficeandfire.com/api/characters/?culture=' + culture_name;
         return httpGet(url);
     }
 
     exports.getCharactersByGender = function(gender) {
-        var url = 'http://www.anapioficeandfire.com/api/characters/?gender=' + gender;
+        var url = 'https://www.anapioficeandfire.com/api/characters/?gender=' + gender;
         return httpGet(url);
     }
 
     //Getters for House
 
     exports.getAllHouses = function() {
-        var url = 'http://www.anapioficeandfire.com/api/houses';
+        var url = 'https://www.anapioficeandfire.com/api/houses';
         return httpGet(url);
     }
 
     exports.getHouseByID = function(house_id) {
         house_id = house_id.toString();
-        var url = 'http://www.anapioficeandfire.com/api/houses/' + house_id;
+        var url = 'https://www.anapioficeandfire.com/api/houses/' + house_id;
         return httpGet(url);
     }
 
     exports.getHouseByName = function(house_name) {
-        var url = 'http://www.anapioficeandfire.com/api/houses/?name=' + house_name;
+        var url = 'https://www.anapioficeandfire.com/api/houses/?name=' + house_name;
         return httpGet(url);
     }
 
     exports.getHouseByRegion = function(region) {
-        var url = 'http://www.anapioficeandfire.com/api/houses/?region=' + region;
+        var url = 'https://www.anapioficeandfire.com/api/houses/?region=' + region;
         return httpGet(url);
     }
 
     exports.getHouseByWords = function(words) {
-        var url = 'http://www.anapioficeandfire.com/api/houses/?words=' + words;
+        var url = 'https://www.anapioficeandfire.com/api/houses/?words=' + words;
         return httpGet(url);
     }
 
